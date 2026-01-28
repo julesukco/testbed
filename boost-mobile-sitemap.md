@@ -93,6 +93,16 @@
 
 ---
 
+## Activation
+- `/activate` — Activate a new device or SIM card
+  - Enter IMEI / SIM card number
+  - Choose new number or transfer existing number (port-in)
+  - Set up account (create login, payment method, AutoPay)
+  - Confirm activation and begin service
+- `/activate/status` — Check activation status
+
+---
+
 ## Informational / Content
 - `/boost-blog` — Blog and articles (e.g., industry insights, how-to guides)
 - 30-Day Money-Back Guarantee info
@@ -116,5 +126,8 @@ Any buy flow → `Keep My Number` → `Enter carrier info + port-in PIN` → `Ch
 ### 5. Upgrade (Infinite Access)
 `Boost App / Account` → `Request upgrade after 12 payments` → `New device shipped` → `Trade in old device`
 
-### 6. Add-On Purchase
+### 6. Activation (New Device or SIM)
+`/activate` → `Enter IMEI / SIM number` → `New Number or Port-In` → `Create Account & Payment` → `Confirm Activation` → `Service Live`
+
+### 7. Add-On Purchase
 `/add-ons` → `Select add-on` → `Add to account` → `Confirmation`
